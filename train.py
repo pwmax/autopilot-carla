@@ -3,7 +3,7 @@ import torch.nn as nn
 import keyboard
 import matplotlib.pyplot as plt
 from torch.utils.data import DataLoader
-from datasets import TrainDataSet
+from dataset import TrainDataSet
 from model import Model
 
 batch_size = 32
